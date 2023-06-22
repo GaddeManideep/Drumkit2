@@ -1,0 +1,49 @@
+.title{
+  /* font-size: xx-large; */
+  text-align: center;
+}
+.drums
+{
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  /* background-color: blueviolet; */
+  margin-top: 50px;
+  /* color: aqua; */
+ /* flex: auto; */
+}
+
+.a{
+background-image: url("images/crash.png");
+}
+.s{
+background-image: url("images/kick.png");
+}
+.d{
+background-image: url("images/snare.png");
+}
+.j{
+background-image: url("images/tom1.png");
+}
+.k{
+background-image: url("images/tom2.png");
+}
+.l{
+background-image: url("images/tom3.png");
+}
+.drum{
+  display: flex;
+margin: 5px;
+border: radius 10px; ;
+padding: 30px;
+height: 150px;
+width: 100px;
+font-size: 20px;
+justify-content: center;
+font-weight: 800;
+color: red;
+border: 10px solid rgb(182, 47, 255);
+}
+.gadde{
+  background-color: rgb(238, 255, 0);
+}
